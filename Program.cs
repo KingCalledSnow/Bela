@@ -8,7 +8,7 @@ namespace Bela
         {
             string[] input = Console.ReadLine().ToUpper().Split(" ");
 
-            long n = Int64.Parse(input[0]);
+            int n = Int32.Parse(input[0]);
             char b = input[1][0];
 
             int points = 0;
