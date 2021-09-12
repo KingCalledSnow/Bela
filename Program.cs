@@ -4,7 +4,7 @@ namespace Bela
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] vs)
         {
             string[] input = Console.ReadLine().ToUpper().Split(" ");
 
